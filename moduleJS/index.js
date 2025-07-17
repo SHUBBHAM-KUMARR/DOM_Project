@@ -1,6 +1,9 @@
 import {tags }from './utils.js'
 
- const mainDiv = tags('div')
+
+// it is a practise 
+
+ export const mainDiv = tags('div')
 
 mainDiv.setAttribute("id", "mainContainer");
 document.body.appendChild(mainDiv);
@@ -16,7 +19,7 @@ cNameDiv.setAttribute("id","cNameDiv")
 
 let cName = tags('h1')
 cNameDiv.append(cName)
-cName.innerText = "StepUPseed"
+cName.innerText = "DOMproject"
 
 
 let searchDiv = tags('div')
