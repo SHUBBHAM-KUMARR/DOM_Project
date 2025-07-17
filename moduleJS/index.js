@@ -50,7 +50,7 @@ nav.append(ul)
 ul.setAttribute('id','nav_ul');
 
 const siteLinks = tags('li', 4);
-const linkTexts = ['Services', 'Products', 'About ','Contact '];
+const linkTexts = ['dummy', 'dummy', 'dummy ','dummy'];
 
 siteLinks.forEach((li,i) => {
   li.textContent = linkTexts[i];
