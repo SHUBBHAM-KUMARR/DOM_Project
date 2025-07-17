@@ -1,7 +1,7 @@
 import {tags }from './utils.js'
 
 
-// it is a practise 
+// it is a practise file , here is the code of header and the main div
 
  export const mainDiv = tags('div')
 
