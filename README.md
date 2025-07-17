@@ -10,7 +10,9 @@
 - Clean and readable code
 
 ---
-
+### DOMproject
+>This project is for practically 
+ manipulating the dom using only vanilla JS .
 ## 🔧 How to Run
 
 1. **Clone or download** this repository
@@ -33,8 +35,10 @@
 ## 📸 Screenshots *(optional)*
 
 ---
-
+![Dummy site](./media/mainShot.png)
 
 ---
 
+![HTML template code](./media/htmlShot.png)
 
+___
