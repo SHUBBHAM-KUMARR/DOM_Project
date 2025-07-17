@@ -1,0 +1,38 @@
+hi every this project is just  for personal progress check in dom 
+
+in this project i will create a full website from js using html as template 
+
+i will we optimising it with till i make best 
+
+you contribution , any suggestion is a helping hand in my progress 
+
+-----------------------------------
+
+phase 1 planning:
+
+plan:
+A simple website with a header main and footer as we see regularly
+
+      homepage
+          |____Header
+          |    |____services 
+          |    |____products
+          |    |____aboutus
+          |    |____contact Form
+          |          
+          |_______main          
+          |       |____banner
+          |       |____carousel
+          |       |____cards in trending     products
+          |       |____cards in demand services 
+          |       |____sponsors
+          |           
+          |_________footer        
+          |         |____contact form 
+          |         |____site map 
+          |         |____reachus handle  
+          |         |____aboutus
+          |         |____logo&copy rights
+          |           
+                     
+                     

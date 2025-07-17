@@ -1,0 +1,81 @@
+*{
+  padding: 0px; 
+  margin: 00px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+  background-color: slategray;
+  width: 100vw;
+  height: 100vh;
+}
+#mainContainer{
+  width: 100vw;
+  height: 100vh;
+  background-color:#cde1cee5;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  background:  #eeeeee30;
+  
+}
+#cNameDiv h1 {
+ color: #4a8d02;
+margin: 20px;
+}
+#nav_ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  margin: 0 36px 0 0;
+}
+.sites{
+  color: #4a8d02;
+  font-weight: 600;
+  list-style: none;
+  font-size: 1.25em;
+}
+
+.sites:hover{
+  cursor: default;
+  color: #4a8d99;
+}
+
+
+#searchDiv{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 40px;
+}
+
+#searchInput {
+ width:80%;
+  height: 100%;
+ border:none;
+ border-radius: 18px 0px 0 18px;
+}
+#srchIconDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height:100%;
+  background-color: #fff;
+  border:none;
+  border-left: 1px solid black;
+  border-radius: 0 18px 18px 0;
+}
+#searchIcon{
+width: 28px;
+height: 28px;
+}
