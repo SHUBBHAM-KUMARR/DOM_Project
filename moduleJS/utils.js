@@ -27,3 +27,30 @@ export let tags = (tag, num = 1) => {
     return Array.from({ length: num }, () => document.createElement(tag));
   }
 };
+
+
+export function attributes(elements, attributes) {
+  for (let key in attributes) {
+    if (attributes.hasOwnProperty(key)) {
+      elements.setAttribute(key, attributes[key]);
+    }
+  }
+}
+
+export function colorGen() {
+  const range = '0123456789ABCDEF'
+  let color = '#'
+  
+  for(let i = 0;i<6;i++){
+   
+     color +=range[Math.floor(Math.random()*16)]
+}
+
+
+return color
+}
+console.log(colorGen);
+
+
+
+
