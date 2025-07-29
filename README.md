@@ -35,10 +35,10 @@
 ## 📸 Screenshots *(optional)*
 
 ---
-![Dummy site](./media/mainShot.png)
+![Dummy site](./frontend/media/mainShot.png)
 
 ---
 
-![HTML template code](./media/htmlShot.png)
+![HTML template code](./frontend/media/htmlShot.png)
 
 ___

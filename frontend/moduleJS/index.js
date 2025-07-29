@@ -64,6 +64,7 @@
 
 import { tags, attributes } from './utils.js';
 
+
 // Main container
 export const mainDiv = tags('div');
 attributes(mainDiv, {
@@ -72,7 +73,7 @@ attributes(mainDiv, {
 document.body.appendChild(mainDiv);
 
 // Header
-let header = tags('div');
+export let header = tags('div');
 attributes(header, {
   id: "header"
 });
@@ -131,7 +132,7 @@ attributes(ul, {
 nav.append(ul);
 
 const siteLinks = tags('li', 4);
-const linkTexts = ['dummy', 'dummy', 'dummy ', 'dummy'];
+const linkTexts = ['Home', 'Product', 'Cart  ', 'login'];
 
 siteLinks.forEach((li, i) => {
   li.textContent = linkTexts[i];
@@ -140,3 +141,5 @@ siteLinks.forEach((li, i) => {
   });
   ul.appendChild(li);
 });
+
+

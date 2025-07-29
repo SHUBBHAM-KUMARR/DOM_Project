@@ -8,10 +8,9 @@
 
 
 body{
-  background-color:#cde1cee5;
+  background:linear-gradient(to left , #0ec1eee5, #18c718ff)
 }
 #mainContainer{
- width: 100vw;
   height: 100vh;
   
 }
@@ -21,11 +20,11 @@ body{
   align-items: center;
   width: 100%;
   height: 10%;
-  background:  #eeeeee30;
+  background: linear-gradient(to left #04b804ff #008000)
   
 }
 #cNameDiv h1 {
- color: #4a8d02;
+ color: #ffffffff;
 margin: 20px;
 }
 #nav_ul{
@@ -36,7 +35,7 @@ margin: 20px;
   margin: 0 36px 0 0;
 }
 .sites{
-  color: #4a8d02;
+  color: #e6f9d2ff;
   font-weight: 600;
   list-style: none;
   font-size: 1.25em;
@@ -45,6 +44,7 @@ margin: 20px;
 .sites:hover{
   cursor: default;
   color: #4a8d99;
+  break-after: auto;
 }
 
 
@@ -90,7 +90,10 @@ height: 28px;
   border: none;
   border-radius: 5px;
 }
-
+#hero{
+  width: 100%;
+  height: 100%;
+}
 #cardsContainerGrid {
   display: grid;
   width: 78%;
@@ -111,6 +114,11 @@ height: 28px;
 .cards {
   background-color: #fff;
   border-radius: 4px;
+}
+.cardImg{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
 
 /* Manually place cards using nth-child */
