@@ -24,7 +24,7 @@ attributes(cNameDiv, {
 header.append(cNameDiv);
 
 let cName = tags('h1');
-cName.innerText = "DOMproject";
+cName.innerText = "DOMstore";
 cNameDiv.append(cName);
 
 // Search Section
