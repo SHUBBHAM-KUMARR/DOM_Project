@@ -29,6 +29,12 @@ mainDiv.append(mainSectionDiv)
     });
    cards[0].innerHTML="<img class='cardImg' src='./frontend/media/mainPage/bun.jpg'>"
    cards[1].innerHTML="<img class='cardImg' src='./frontend/media/mainPage/bunNew.jpg'>"
+   cards[2].innerHTML="<img class='cardImg' src='./frontend/media/mainPage/coffee.jpg'>"
+   cards[3].innerHTML="<img class='cardImg' src='./frontend/media/mainPage/snacks.jpg'>"
+   cards[4].innerHTML="<img class='cardImg' src='./frontend/media/mainPage/bunNew.jpg'>"
+   cards[5].innerHTML="<img class='cardImg' src='./frontend/media/mainPage/spices.jpg'>"
+      
+   cards[6].innerHTML="<img class='cardImg' src='./frontend/media/mainPage/veggies.jpg'>"
       
       
 

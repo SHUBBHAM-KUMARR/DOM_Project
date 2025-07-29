@@ -131,11 +131,3 @@ height: 28px;
 .cards:nth-child(7) { grid-column: 3; grid-row: 3; }
 
 /* sponsor Div */
-#sponsrContainer{
-  display: grid;
-  width: 84%;
-  height: 54%;
-  background: #000;
-  margin: auto;
-  border-radius: 5px;
-}
