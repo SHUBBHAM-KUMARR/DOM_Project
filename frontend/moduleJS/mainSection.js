@@ -38,3 +38,42 @@ mainDiv.append(mainSectionDiv)
       
       
 
+const footer = tags('footer')
+attributes(footer,{
+  id:"footer"
+})
+mainDiv.append(footer)
+const contact = tags('div')
+attributes(contact,{
+  id:"contact"
+})
+footer.append(contact)
+contact.innerHTML =`  <footer id='mainFooter'>
+    <div class='footer-container'>
+
+      <!-- Site Map Section -->
+      <div class='footer-section' id='siteMap'>
+        <h4>Site Map</h4>
+        <ul>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Privacy Policy</a></li>
+          <li><a href='#'>Customer Service</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Form Section -->
+      <div class='footer-section' id='contactSection'>
+        <h4>Contact Us</h4>
+        <form id='contactForm'>
+          <input type='text' id='name' placeholder='Your Name'><br>
+          <input type='email' id='email' placeholder='Your Email'><br>
+          <textarea id='message' placeholder='Your Message'></textarea><br>
+          <button type='submit' id='submitBtn'>Send</button>
+        </form>
+      </div>
+
+    </div>
+
+    <p id='footerBottom'>© 2025 My Website. All rights reserved.</p>
+  </footer>
+`
